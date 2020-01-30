@@ -792,8 +792,8 @@
                                           "required": true,
                                           "prefix": "TRADELICENSE_OCCUPANCYTYPE",
                                           "module": "rainmaker-tl"
-                                      }
-                                  }
+                                   }
+                                  }                                 
                               ]
                           }
                       ]
