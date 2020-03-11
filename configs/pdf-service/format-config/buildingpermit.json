@@ -198,21 +198,25 @@
           "body": [
             [
               {
-                "text": "{{FEE_DSCR}}",
-                "bold": true
+                "text" : "{{FEE_DSCR}}",
+                "alignment" : "center",
+                "bold" : true
               },
               {
-                "text": "{{AMOUNT}}",
-                "bold": true
+                "text" : "{{AMOUNT}}",
+                "bold" : true,
+                "alignment" : "right"
               }
             ],
-            "{{#paymentDetails}}[{ \"text\":\"{{headCode}}\", \"border\":[ true, true, true, true ]},{ \"text\":\"{{amnt}}\", \"border\":[ true, true, true, true ]}]{{/paymentDetails}}",
+            "{{#paymentDetails}}[{ \"text\":\"{{headCode}}\", \"border\":[ true, true, true, true ],\"alignment\": \"center\"},{ \"text\":\"{{amnt}}\", \"border\":[ true, true, true, true ],\"alignment\": \"right\"}]{{/paymentDetails}}",
             [
               {
-                "text": "{{TOTAL}}"
+                "text" : "{{TOTAL}}",
+                "alignment" : "center"
               },
               {
-                "text": "{{totalDue}}"
+                "text" : "{{totalDue}}",
+                "alignment" : "right"
               }
             ]
           ]
