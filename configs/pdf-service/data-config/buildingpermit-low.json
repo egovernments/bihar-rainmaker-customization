@@ -525,6 +525,18 @@
                 }
               },
               {
+                "variable": "Bihar_Tenant",
+                "value": {
+                  "path": "Bihar_Tenant"
+                },
+                "type" : "label",
+                "localisation": {
+                  "required": true,
+                  "prefix": null,
+                  "module": "rainmaker-bpa"
+                }
+              },
+              {
                 "variable": "applicantName",
                 "value": {
                   "path": "$.edcrDetail[0].planDetail.planInformation.applicantName"
@@ -554,7 +566,7 @@
           {
             "externalAPI": [
               {
-                "path": "http://localhost:8087/collection-services/payments/_search",
+                "path": "http://collection-services:8080/payments/_search",
                 "queryParam": "tenantId=$.tenantId,consumerCodes=$.applicationNo",
                 "apiRequest": null,
                 "responseMapping": [
