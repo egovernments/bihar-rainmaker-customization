@@ -82,7 +82,8 @@
           },
           {
             "text" : " {{applicationNo}}",
-            "bold" : true
+            "bold" : true,
+            "font": "Roboto"
           },
           {
             "text" : " {{dated}}"
