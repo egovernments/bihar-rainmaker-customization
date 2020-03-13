@@ -5,15 +5,15 @@
       "font": "Cambay"
     },
     "content": [
-      {
-          "text" : "{{GENERATED_ON}}",
+      
+          "text" : "{{GENERATED_ON}} : ",
           "absolutePosition" : {
              "x" : 400,
              "y" : 5
           }
       },
       {
-        "text" : " : {{orderGeneratedOn}}",
+        "text" : " {{orderGeneratedOn}}",
         "absolutePosition" : {
             "x" : 500,
             "y" : 5
