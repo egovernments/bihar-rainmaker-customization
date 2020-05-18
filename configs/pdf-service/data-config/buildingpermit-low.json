@@ -82,6 +82,13 @@
                 }
               },
               {
+                "variable": "reportrunDate",
+                "value": {
+                  "path": "$.additionalDetails.runDate"
+               },
+		"type":"date"
+              },
+              {
                 "variable": "townPlanningScheme",
                 "value": {
                   "path": "$.additionalDetails.townPlanningScheme"
@@ -122,6 +129,18 @@
                   "path": "BPA_PDF_GENERATED_ON"
                 },
                 "type" : "label",
+                "localisation": {
+                  "required": true,
+                  "prefix": null,
+                  "module": "rainmaker-bpa"
+                }
+              },
+              {
+                "variable": "REPORT_RUNDATE",
+                "value": {
+                  "path": "BPA_PDF_REPORT_RUNDATE"
+                },
+                "type": "label",
                 "localisation": {
                   "required": true,
                   "prefix": null,

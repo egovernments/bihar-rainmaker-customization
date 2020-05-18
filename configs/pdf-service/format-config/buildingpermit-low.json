@@ -291,8 +291,16 @@
         "alignment": "right",
         "width": 100,
         "height": 100
-      }
-    ],
+      },
+     {
+	"stack":[
+        {        
+	"text" : "{{REPORT_RUNDATE}} : {{reportrunDate}}",
+        "alignment" : "right"              
+        }],
+	"style":"bottom-right-margin"
+     }
+   ],
     "styles": {
       "header": {
         "bold": true,
@@ -322,7 +330,17 @@
           0,
           0
         ]
-      }
+      },
+   "bottom-right-margin":{
+  "margin": [
+          0,
+          350,
+          0,
+          0
+        ],
+"alignment": "bottom"
+     }
     }
   }
+
 }
